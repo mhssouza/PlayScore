@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/login.css">
+    <link rel="stylesheet" href="public/css/animations.css">
     <link rel="stylesheet" href="public/js/login.js">
     <link rel="shortcut icon" href="./public/assets/icons/iconSite.png" type="image/x-icon">
 
@@ -19,34 +20,35 @@
             </div>
         </div>
         <div class="conteiner">
-            <b><span class="titulo">Cadastre-se já na</span></b>
-            <img src="public/assets/img/logoSite.png" class="logo animate">
+            <img src="public/assets/img/logoSite.png" class="logo">
             <div class="card card-login">
-                <div class="formulario">
+                <section class="formulario">
                     <div class="campo">
-                        <label class="userLabel">Nome de Usuário:</label>
-                        <input class="inputCampo" type="text" id="usuario_input"
-                            placeholder="Nome de Usuário"> <br>
+                        <label class="userLabel">Nome:</label>
+                        <input class="inputCampo" type="text" id="nome_input"> <br>
+                    </div>
+
+                    <div class="campo">
+                        <label class="userLabel">Usuário:</label>
+                        <input type="text" class="inputCampo" id="usuario_input">
                     </div>
 
                     <div class="campo">
                         <label class="userLabel">E-mail:</label>
-                        <input class="inputCampo" type="text" id="email_input"
-                            placeholder="meuemail@provedor.com"> <br>
+                        <input class="inputCampo" type="text" id="email_input"> <br>
                     </div>
 
                     <div class="campo">
                         <label class="userLabel">Senha:</label>
-                        <input class="inputCampo senha" type="password" id="input_senha"
-                            placeholder="********"> <br>
+                        <input class="inputCampo senha" type="password" id="input_senha"> <br>
                     </div>
 
                     <div class="campo">
                         <label class="userLabel">Confirmar Senha:</label>
-                        <input class="inputCampo senha" type="password" id="input_confirmar_senha" placeholder="********">
+                        <input class="inputCampo senha" type="password" id="input_confirmar_senha">
                     </div>
                     <button class="botao" onclick="cadastrar()">Cadastrar</button>
-                </div>
+                </section>
             </div>
         </div>
     </div>

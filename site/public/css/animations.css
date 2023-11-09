@@ -1,0 +1,53 @@
+.animate{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.slideInLeft{
+    animation-name: slideInLeft 1s;
+    animation-timing-function: ease;
+}
+
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+
+@keyframes animate--top {
+    from{
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes animate--bottom {
+    from{
+        transform: translateX(300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+
+@keyframes animate--bottom {
+    from{
+        transform: translateX(300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}

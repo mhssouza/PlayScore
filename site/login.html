@@ -5,8 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlayScore | Login</title>
     <link rel="shortcut icon" href="./public/assets/icons/iconSite.png" type="image/x-icon">
+    <link rel="stylesheet" href="./public/css/login.css">
 </head>
 <body>
-    
+    <div class="conteiner">
+        <img src="public/assets/img/logoSite.png" class="logo">
+        <div class="card card-login">
+            <section class="formulario">
+                <div class="campo">
+                    <label class="userLabel">Usuário/E-mail:</label>
+                    <input type="text" class="inputCampo" id="usuario_input">
+                </div>
+
+                <div class="campo">
+                    <label class="userLabel">Senha:</label>
+                    <input class="inputCampo senha" type="password" id="input_senha"> <br>
+                </div>
+
+                <div class="campo">
+                    <u><a class="userLabel">Esqueceu a senha?</a></u>
+                </div>
+
+                <button class="botao" onclick="login()">Entrar</button>
+            </section>
+        </div>
+    </div>
 </body>
 </html>
