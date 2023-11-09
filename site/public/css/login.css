@@ -1,0 +1,50 @@
+body{
+    background-image: url(../assets/img/backgroundLogin.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: rgb(109, 24, 24);
+    font-size: 50px;
+}
+
+.card-login{
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 1px 1px 20px rgb(252, 72, 72);
+    /* text-align: center   ; */
+    border: solid 5px;
+    margin: 5% 20%;
+    border-color: rgb(255, 0, 0);
+    border-radius: 25px;
+    padding: 1%;
+}
+
+.inputCampo{
+    display: flex;
+    height: 40px;
+    width: 75%;
+    border-radius: 8px;
+}
+
+.campo {
+    font-size: 20px;
+    margin-left: 30px;
+    color: indigo;
+    padding: 10px;
+}
+
+.botao {
+    margin: 2% 41%;
+    border: solid 3px;
+    border-color: rgb(0, 119, 255);
+    border-radius: 10px;
+    color: aqua;
+    background-color: rgb(15, 15, 15);
+    font-size: 20px;
+    padding: 10px;
+    align-items: center;
+    margin-top: 15px;
+}
