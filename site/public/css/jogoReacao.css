@@ -22,10 +22,10 @@ h1 {
     border: 0;
     outline: 2px solid #ffffff;
     outline-offset: 3px;
-    border-radius: 3px;
+    border-radius: 2px;
     color: #ffffff;
     background-color: transparent;
-    font-size: 1.5rem;
+    font-size: 2rem;
     align-items: center;
     padding: 0.5rem 1rem;
     transition: 0.25s;
@@ -49,7 +49,7 @@ h1 {
     background-color: #011623;
 }
 
-.deslizarCima{
+.deslizarCima {
     margin-top: -100vh;
 }
 
@@ -153,27 +153,27 @@ h1 {
 /* Responsividade */
 
 @media (max-width: 760px) {
-    h1{
+    h1 {
         font-size: 2rem;
     }
 
-    .botao{
+    .botao {
         font-size: 1rem;
     }
 
-    .telaFinal{
+    .telaFinal {
         gap: 20px;
         flex-direction: column;
     }
 
-    .telaFinal div{
+    .telaFinal div {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         margin-bottom: 10px;
     }
 
-    .vidas{
+    .vidas {
         margin-bottom: 10px;
     }
 }
